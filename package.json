@@ -1,8 +1,12 @@
 {
   "name": "first-chunk",
   "version": "0.0.1",
-  "description": "",
+  "description": "get the first chunk of readable stream",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elixiao/first-chunk"
+  },
   "author": "elixiao",
   "license": "MIT"
 }

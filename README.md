@@ -16,10 +16,10 @@ const firstChunk = require('first-chunk')
 
 const options = {
     encoding: 'utf8',
-    highWaterMark: 12  // defaults to 16384 (16kb)
+    size: 12  // defaults to 16384 (16kb)
 }
 
-firstChunk('./package.json', options)
+firstChunk('path/to/file', options)
     .then(data => {
         console.log(data)
     })
